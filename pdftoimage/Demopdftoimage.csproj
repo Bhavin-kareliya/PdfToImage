@@ -8,14 +8,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="PdfPig" Version="0.1.10" />
-    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.7" />
-    <PackageReference Include="SkiaSharp" Version="3.116.1" />
-    <PackageReference Include="System.Drawing.Common" Version="9.0.2" />
+    <PackageReference Include="PDFtoImage" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <None Update="1.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="2.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="3.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="multiple.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

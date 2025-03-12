@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pdftoimage", "pdftoimage\pdftoimage.csproj", "{1B7B4B78-6229-4FA3-A67D-DD0A1118F2A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demopdftoimage", "pdftoimage\Demopdftoimage.csproj", "{1B7B4B78-6229-4FA3-A67D-DD0A1118F2A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
